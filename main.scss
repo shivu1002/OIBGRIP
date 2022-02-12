@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+
+body{
+    background: #581b98;
+    font-family: 'Work Sans';
+    text-align: center;
+    letter-spacing: .01em;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin:0;
+    padding:0;
+    
+}
+
+label{
+    font-size:1.8em ;
+    color: white;
+}
+
+.section-hero{
+    margin:8em;
+    padding:4em 4em 3em 4em;
+    background: #9c1de7;
+    border-radius: 2em;
+    margin-top: 3em;
+    
+
+    
+}
+
+.submit{
+
+    background: blue;
+    border-radius: 3em;
+    color: white;
+    font-weight: bold;
+    margin-top:2em;
+    border:none;
+    font-size: 1em;
+    padding:1em;
+    transition:   2.5s ;  
+
+    &:hover{
+        
+        background: #c5e3f6;
+        
+        font-weight: bolder;
+        padding:1em 3em 1em 3em;
+        color: black;
+    }
+    
+    
+}
+
+input{
+    border:none;
+    border-radius: 2em;
+    color: grey;
+    padding: 1.5em;
+    font-size: 1em;
+    outline: none;
+    font-family: "Work Sans";
+    letter-spacing: 0.01em;
+
+    
+}
+
+select{
+    border-radius: 2em;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    background: white;
+    padding: 1em;
+    padding-left: .5em;
+    outline: none;
+
+    
+
+    
+}
+
+
+.input-box{
+    margin-left: 5em;
+    margin-top: 1.5em;
+}
+
+// dark mode
+
+img{
+    float:right;
+    padding-right: 1em;
+    transition:  all 2s;
+
+    &:hover{
+        padding-right: 3em;
+        
+    }
+   
+    
+}
+
+#icon{
+    cursor: pointer;
+
+
+}
+
+.dark-theme{
+    background: black;
+    .section-hero{
+        background: #181414;
+    }
+    span{
+        color: white;
+    }
+}
